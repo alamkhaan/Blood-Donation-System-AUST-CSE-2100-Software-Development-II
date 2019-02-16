@@ -46,7 +46,7 @@ public class LoadingPage {
        icon = new ImageIcon(url);
        icon = new ImageIcon(icon.getImage().getScaledInstance(200, 200, java.awt.Image.SCALE_DEFAULT));   
        jLabel = new JLabel(icon, JLabel.CENTER);
-       jLabel.setBounds( WIDTH/2 - icon.getIconWidth()/2, HEIGHT/2 - icon.getIconHeight(), 200, 200);
+       jLabel.setBounds( WIDTH/2 - icon.getIconWidth()/2 - 10, HEIGHT/2 - icon.getIconHeight(), 200, 200);
        
        //locale = new Locale("bn");
        //rb = ResourceBundle.getBundle("Language", locale);
@@ -59,21 +59,20 @@ public class LoadingPage {
        
        
        jProgressBar = new JProgressBar();
-       jProgressBar.setBounds(130,600, 200, 10);
+       jProgressBar.setBounds(80,600, 300, 12);
        jProgressBar.setBorderPainted(false);
        jProgressBar.setBackground(Color.white);
        jProgressBar.setForeground(Color.red);
        jProgressBar.setValue(0);
        
-       resizeImages();
        jFrame.add(jLabel);
        jFrame.add(jProgressBar);
        jFrame.add(title);
     }
     
-    void resizeImages(){
+    void stopResize(){
        //jLabel.setBounds( WIDTH/2 - icon.getIconWidth()/2, HEIGHT/2 - icon.getIconHeight(), 200, 200);
-       jFrame.setSize(WIDTH, HEIGHT);
+        jFrame.setSize(WIDTH, HEIGHT);
     }
     
     
@@ -92,7 +91,7 @@ public class LoadingPage {
                     }
                     else{
                         //lp1.WIDTH = lp1.jFrame.getWidth();     
-                        lp1.resizeImages();                       
+                        lp1.stopResize();                       
                     }           
                     
                     if( lp1.HEIGHT == lp1.jFrame.getHeight() )
@@ -101,11 +100,14 @@ public class LoadingPage {
                     }
                     else{
                         //lp1.HEIGHT = lp1.jFrame.getHeight();     
-                        lp1.resizeImages();                       
+                        lp1.stopResize();                       
                     }   
                 }              
             }           
         });
+        
+        
+        
         
         Thread y = new Thread(new Runnable(){
             @Override
@@ -118,8 +120,9 @@ public class LoadingPage {
                     }
                     lp1.jProgressBar.setValue(i);
                 }
-                new LoginPage().setVisible(true);
+                new LoginPage().setVisible(true);               
                 lp1.jFrame.setVisible(false);
+               
             }
         });
         

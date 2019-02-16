@@ -21,8 +21,10 @@ public class LoginPage extends javax.swing.JFrame {
     public LoginPage() {
         getContentPane().setBackground(new Color(255,255,255));
         initComponents();
+        
+        
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -154,6 +156,11 @@ public class LoginPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+<<<<<<< HEAD
+=======
+        // TODO add your handling code here:
+        setVisible(false);
+>>>>>>> a820ca2a78d54e364ed9cf89260310e3453c2a33
         new RegisterPage().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -194,8 +201,8 @@ public class LoginPage extends javax.swing.JFrame {
             }
         });
     }
-   
     */
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
