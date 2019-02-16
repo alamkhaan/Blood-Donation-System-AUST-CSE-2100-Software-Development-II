@@ -33,8 +33,8 @@ public class RegisterPage extends javax.swing.JFrame {
         jRadioButton2 = new javax.swing.JRadioButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jEditorPane1 = new javax.swing.JEditorPane();
-        jCalendar1 = new com.toedter.calendar.JCalendar();
-        jCalendar2 = new com.toedter.calendar.JCalendar();
+        jCalendar1 = new org.netbeans.modules.form.InvalidComponent();
+        jCalendar2 = new org.netbeans.modules.form.InvalidComponent();
         jTextField7 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         userName = new javax.swing.JTextField();
@@ -61,7 +61,7 @@ public class RegisterPage extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
-        birthDate = new com.toedter.calendar.JDateChooser();
+        birthDate = new org.netbeans.modules.form.InvalidComponent();
         submitButton = new javax.swing.JButton();
         submitButton1 = new javax.swing.JButton();
 
@@ -348,7 +348,7 @@ public class RegisterPage extends javax.swing.JFrame {
 
     private void password1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password1ActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
+//<<<<<<< HEAD
     }//GEN-LAST:event_password1ActionPerformed
 
     private void textField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField5ActionPerformed
@@ -388,8 +388,8 @@ public class RegisterPage extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-=======
-    }//GEN-LAST:event_textField1ActionPerformed
+//=======
+                                              
     
     /*
 >>>>>>> a820ca2a78d54e364ed9cf89260310e3453c2a33
@@ -423,7 +423,7 @@ public class RegisterPage extends javax.swing.JFrame {
     */
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.toedter.calendar.JDateChooser birthDate;
+    private org.netbeans.modules.form.InvalidComponent birthDate;
     private javax.swing.JComboBox<String> bloodGroup;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
@@ -431,8 +431,8 @@ public class RegisterPage extends javax.swing.JFrame {
     private javax.swing.JTextField contactNo;
     private javax.swing.JComboBox<String> gender;
     private java.awt.TextField houseNo;
-    private com.toedter.calendar.JCalendar jCalendar1;
-    private com.toedter.calendar.JCalendar jCalendar2;
+    private org.netbeans.modules.form.InvalidComponent jCalendar1;
+    private org.netbeans.modules.form.InvalidComponent jCalendar2;
     private javax.swing.JDialog jDialog1;
     private javax.swing.JEditorPane jEditorPane1;
     private javax.swing.JLabel jLabel1;

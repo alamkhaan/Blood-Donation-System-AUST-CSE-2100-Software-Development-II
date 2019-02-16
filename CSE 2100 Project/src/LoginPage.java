@@ -3,6 +3,8 @@ import java.awt.Color;
 
 
 
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -156,11 +158,11 @@ public class LoginPage extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//        =======
         // TODO add your handling code here:
         setVisible(false);
->>>>>>> a820ca2a78d54e364ed9cf89260310e3453c2a33
+//>>>>>>> a820ca2a78d54e364ed9cf89260310e3453c2a33
         new RegisterPage().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
