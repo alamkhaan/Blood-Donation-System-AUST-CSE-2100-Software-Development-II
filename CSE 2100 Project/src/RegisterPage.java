@@ -348,7 +348,6 @@ public class RegisterPage extends javax.swing.JFrame {
 
     private void password1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password1ActionPerformed
         // TODO add your handling code here:
-<<<<<<< HEAD
     }//GEN-LAST:event_password1ActionPerformed
 
     private void textField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField5ActionPerformed
@@ -388,13 +387,12 @@ public class RegisterPage extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-=======
-    }//GEN-LAST:event_textField1ActionPerformed
-    
-    /*
->>>>>>> a820ca2a78d54e364ed9cf89260310e3453c2a33
     public static void main(String args[]) {
- 
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -413,15 +411,14 @@ public class RegisterPage extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-      
+        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new RegisterPage().setVisible(true);
             }
         });
     }
-    */
-    
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private com.toedter.calendar.JDateChooser birthDate;
     private javax.swing.JComboBox<String> bloodGroup;
