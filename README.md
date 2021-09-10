@@ -8,6 +8,6 @@ Team Members:-
             
 Language: Java
 
-IDE: Android Studio
+IDE: Neatbeans
 
-Platform: Android
+Platform: Java FX
