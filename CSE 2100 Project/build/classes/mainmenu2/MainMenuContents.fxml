@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" layoutX="8.0" layoutY="70.0" prefHeight="830.0" prefWidth="494.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainmenu2.MainMenuContentsController">
+   <children>
+      <Button fx:id="searchDonorButton" layoutX="80.0" layoutY="140.0" mnemonicParsing="false" onAction="#searchDonor" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: red;" text="Search Donor" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="adminPanelButton" layoutX="80.0" layoutY="413.0" mnemonicParsing="false" onAction="#adminPanel" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: red;" text="Admin Panel" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="382.0" layoutY="736.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: red;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="myProfileButton" layoutX="80.0" layoutY="208.0" mnemonicParsing="false" onAction="#myProfile" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: red;" text="My Profile" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="writeNewPostButton" layoutX="80.0" layoutY="277.0" mnemonicParsing="false" onAction="#writeNewPost" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: red;" text="Write New Post" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="myPostsButton" layoutX="80.0" layoutY="344.0" mnemonicParsing="false" onAction="#myPosts" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: red;" text="My Posts" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

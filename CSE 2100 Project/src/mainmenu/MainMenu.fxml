@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="510.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainmenu.MainMenuController">
+    <children>
+      <Button fx:id="searchDonorButton" layoutX="93.0" layoutY="139.0" mnemonicParsing="false" onAction="#searchDonor" prefHeight="52.0" prefWidth="324.0" style="-fx-background-color: red;" text="Search Donor" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="adminPanelButton" layoutX="93.0" layoutY="223.0" mnemonicParsing="false" onAction="#adminPanel" prefHeight="52.0" prefWidth="324.0" style="-fx-background-color: red;" text="Admin Panel" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="417.0" layoutY="822.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: red;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

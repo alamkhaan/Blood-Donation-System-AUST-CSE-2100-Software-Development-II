@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="outterAnchorPane" layoutX="256.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="903.0" prefWidth="956.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adminpanelpage.AdminsListPageController">
+   <children>
+      <ListView fx:id="usersList" layoutX="-2.0" layoutY="103.0" prefHeight="798.0" prefWidth="956.0" style="-fx-background-color: white;" />
+      <Pane layoutY="-2.0" prefHeight="106.0" prefWidth="956.0" style="-fx-background-color: e6e6e6;">
+         <children>
+            <TextField layoutX="557.0" layoutY="72.0" prefHeight="25.0" prefWidth="363.0" />
+            <ComboBox layoutX="14.0" layoutY="72.0" prefWidth="150.0" />
+            <ComboBox layoutX="195.0" layoutY="72.0" prefWidth="150.0" />
+            <ComboBox layoutX="376.0" layoutY="72.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

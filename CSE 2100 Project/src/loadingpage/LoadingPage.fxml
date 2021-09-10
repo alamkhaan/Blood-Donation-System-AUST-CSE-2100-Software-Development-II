@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="loadingpage.LoadingPageController">
+    <children>
+      <ProgressBar fx:id="progressBar" layoutX="94.0" layoutY="708.0" prefHeight="18.0" prefWidth="312.0" progress="0.0" />
+      <ImageView fitHeight="375.0" fitWidth="312.0" layoutX="94.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/blood.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="223.0" layoutY="690.0" text="Loading..." textFill="RED">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

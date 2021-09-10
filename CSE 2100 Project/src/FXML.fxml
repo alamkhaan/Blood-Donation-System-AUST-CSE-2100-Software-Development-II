@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuButton contentDisplay="CENTER" layoutX="19.0" layoutY="95.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="61.0" style="-fx-background-color: cc0000;" text="A+" textFill="WHITE">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </MenuButton>
+      <MenuButton contentDisplay="CENTER" layoutX="90.0" layoutY="95.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" style="-fx-background-color: cc0000;" text="Dhaka" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </MenuButton>
+      <ListView fx:id="listView" layoutX="19.0" layoutY="136.0" prefHeight="746.0" prefWidth="477.0" style="-fx-border-color: red; -fx-border-width: 1;" />
+      <TextField layoutX="19.0" layoutY="38.0" prefHeight="48.0" prefWidth="477.0" promptText="Enter a name ">
+         <font>
+            <Font name="AWL Phonetics 3 Unicode" size="18.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="49.0" fitWidth="50.0" layoutX="446.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../search2.png" />
+         </image>
+      </ImageView>
+       
+   </children>
+</AnchorPane>
