@@ -12,9 +12,9 @@ IDE: Neatbeans
 
 Platform: Java FX
 
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+========================</br>
+BUILD OUTPUT DESCRIPTION</br>
+========================</br>
 
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
